@@ -4,8 +4,7 @@ function validate(event)
     const password=document.getElementById("password").value;
     if(username=="karthika" && password=="123")
     {
-        alert("login successfull")
-        return false;
+        window.open("http://127.0.0.1:8887/task2/admin.html")
     }
     else{
         alert("login failed");
